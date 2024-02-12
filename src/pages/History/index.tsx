@@ -3,7 +3,6 @@ import { formatDistanceToNow } from 'date-fns'
 import { ptBR } from 'date-fns/locale/pt-BR'
 import { HistoryContainer, HistoryList, Status } from './styles'
 import { CyclesContext } from '../../contexts/CyclesContext'
-import { date } from 'zod'
 
 export function History() {
   const { cycles } = useContext(CyclesContext)
